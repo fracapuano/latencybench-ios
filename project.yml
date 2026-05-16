@@ -1,0 +1,16 @@
+name: LatencyBench
+options:
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  LatencyBench:
+    type: application
+    platform: iOS
+    sources:
+      - LatencyBench
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: dev.fracapuano.LatencyBench
+      INFOPLIST_FILE: LatencyBench/Info.plist
+      SWIFT_VERSION: "5.0"
+      TARGETED_DEVICE_FAMILY: "1"
+

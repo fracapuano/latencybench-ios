@@ -1,0 +1,31 @@
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.hmap
+
+# Swift Package Manager, if added later
+.build/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# Generated models and benchmark artifacts
+*.mlmodelc/
+*.mlpackage/
+*.coremlmodel/
+benchmark_results/
+artifacts/
+
+# Python helper script caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
